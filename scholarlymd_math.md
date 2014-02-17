@@ -52,7 +52,8 @@ Here is an implicit align math environment consisting of multiple lines of equat
 
 And here is an implicit gather math environment consisting of multiple lines of equations with no newline in between, with no `&` symbol appearing anywhere:
 
-```math #firstGatherMathNumber
+```math
+#firstGatherMathNumber
 A = B
 ```
 ```math
