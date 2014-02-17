@@ -32,9 +32,10 @@ The following is a displaymath with an aligned environment in a separate paragra
 
 
 ```math_aligned
+#matheqn1
     \mbox{minimize}\quad & f(x) = \max_{i=1,\ldots,m} (a_i^T x + b_i) \\
     & \|x\|_2 \le \sigma.
-``` #matheqn1
+```
 
 
 Here is an implicit align math environment consisting of multiple lines of equations with no newline in between, with at least one `&` symbol in the whole expression. It should be in the same paragraph as this one.
@@ -43,8 +44,9 @@ Here is an implicit align math environment consisting of multiple lines of equat
       \sum_{j_1, j_2, \ldots j_m} \sum_{k_1, k_2, \ldots, k_m} & \widetilde{A}_{j_1,k_1}^{\ast} \widetilde{A}_{j_1,k_2} \tilde{A}_{j_2,k_2}^{\ast} \widetilde{A}_{j_2,k_3}  \ldots \widetilde{A}_{j_m,k_m}^{\ast} \widetilde{A}_{j_m,k_1}
 ```
 ```math
+#middleAlignMathNumber
      =   \sum_{j_1, j_2, \ldots j_m} \sum_{k_1, k_2, \ldots, k_m} & \left(  R_{\Lambda} T_{k_1}^{\ast} P_{\Omega} T_{j_1} R_{\Lambda}^{\ast} \right) \left(  R_{\Lambda} T_{j_1}^{\ast} P_{\Omega} T_{k_2} R_{\Lambda}^{\ast} \right)   \left(  R_{\Lambda} T_{k_2}^{\ast} P_{\Omega} T_{j_2} R_{\Lambda}^{\ast} \right)
-``` #middleAlignMathNumber
+```
 ```math
      & \left(  R_{\Lambda} T_{j_2}^{\ast} P_{\Omega} T_{k_3} R_{\Lambda}^{\ast} \right) \ldots \left(  R_{\Lambda} T_{k_m}^{\ast} P_{\Omega} T_{j_m} R_{\Lambda}^{\ast} \right) \left(  R_{\Lambda} T_{j_m}^{\ast} P_{\Omega} T_{k_1} R_{\Lambda}^{\ast} \right).
 ```
@@ -85,14 +87,16 @@ Referencing using the `\ref` tag: Equation [#matheqn1].
 Referencing using the `\eqref` tag: Equation (#middleAlignMathNumber).
 
 Below is more internal vertical alignment tests. The first is one that uses `cases` internally:
-```math #matheqn2
+```math
+#matheqn2
     P_{r-j}=\begin{cases}
     0& \text{if $r-j$ is odd},\\
     r!\,(-1)^{(r-j)/2}& \text{if $r-j$ is even},
     \end{cases}
 ```
 and another one that uses `aligned` internally.
-```math #matheqn3
+```math
+#matheqn3
     \left.\begin{aligned}
     B'&=-\partial\times E\\
     E'&=\partial\times B - 4\pi j
@@ -111,6 +115,7 @@ Here's a list with both inline and display math environments:
     - Indented item 4
     - Indented item 5, followed by display math
       ```math
+      #mathdisplayinlist
         \mathbf{F = ma}
       ```
       with some text below it
