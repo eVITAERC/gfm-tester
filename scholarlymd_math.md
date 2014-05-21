@@ -1,5 +1,4 @@
 ---
-
 title:  'Scholarly Markdown: a Markdown-compatible format for academic communication'
 author:
 - name: First Author
@@ -8,7 +7,6 @@ author:
   affiliation: U of Technical
 tags: [test, markdown, scholarly]]
 date: January 1, 2000
-
 ---
 
 # Scholarly Markdown math support
