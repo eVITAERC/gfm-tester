@@ -6,6 +6,9 @@ author:
 - name: Second Author
   affiliation: U of Technical
 tags: [test, markdown, scholarly]
+abstract: |
+    This is an abstract
+    It has line breakes oreserved
 date: January 1, 2000
 ---
 
