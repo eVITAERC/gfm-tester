@@ -5,7 +5,7 @@ author:
   affiliation: Technical U
 - name: Second Author
   affiliation: U of Technical
-tags: [test, markdown, scholarly]]
+tags: [test, markdown, scholarly]
 date: January 1, 2000
 ---
 
