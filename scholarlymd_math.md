@@ -9,9 +9,9 @@ tags: [test, markdown, scholarly]
 date: January 1, 2000
 ---
 
-# Scholarly Markdown math support
+## Scholarly Markdown math support
 
-## Math as (fenced) code blocks
+### Math as (fenced) code blocks
 
 This is a line of text with a `simple code block` in it.
 
@@ -103,7 +103,7 @@ and another one that uses `aligned` internally.
     \qquad \text{Maxwell's equations}
 ```
 
-## Math and lists
+### Math and lists
 
 Here's a list with both inline and display math environments:
 
