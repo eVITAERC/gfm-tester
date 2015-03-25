@@ -24,4 +24,4 @@ fin.
 
 
 [cubs]: http://i.imgur.com/RcOwaRz.jpg
-[cubs-attr]: http://i.imgur.com/RcOwaRz.jpg  {width=100%}
+[cubs-attr]: http://i.imgur.com/RcOwaRz.jpg  (#helper width=100%)
